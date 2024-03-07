@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00203a;
+    color: white;
+    height: 100vh
+}
+
+.container .password .random{
+    color: #008450;
+    padding-bottom: 1rem;
+    border-bottom: solid 5px #008450;
+    width: fit-content;
+}
+
+.container .password .password-field input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
+.container .password .password-field input:focus{
+    outline: #04b66f 3px solid;
+}
+.container .password .password-field i{
+    position: absolute;
+    color: #008450;
+    right: 34%;
+    bottom: 43%;
+    font-size: 21pt;
+    cursor: pointer;
+    transform: translateY(0%);
+}
+.container .password .password-control{
+    width: 650px;
+}
+.container .password .password-control button{
+    padding: 10px 20px 10px 50px;
+    color: white;
+    background: #00844e;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    border: none;
+}
+.container .password .password-control i{
+    position: absolute;
+    left: 5%;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 25%;
+    cursor: pointer;
+}
